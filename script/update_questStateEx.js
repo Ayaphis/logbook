@@ -111,6 +111,7 @@ function update(type, data){
 				//6=気のせいだった
 				//7=航空戦
 				//8=船団護衛成功
+				//0=揚陸地点
 				if(getData("eventId") == 5){
 					//あ号作戦（ボス勝利）
 					if(getData("flg214")) setData("cntBossWin214",getData("cntBossWin214") + 1);
