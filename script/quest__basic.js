@@ -11,6 +11,7 @@ function questCategory(category) {
 		case 1:
 			return "編成";
 		case 2:
+		case 8:
 			return "出撃";
 		case 3:
 			return "演習";
@@ -22,7 +23,6 @@ function questCategory(category) {
 			return "工廠";
 		case 7:
 			return "改装";
-		case 8:
 		default:
 			return "その他";
 	}
